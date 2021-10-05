@@ -15,10 +15,12 @@
 <tr><th>Song</th><th>Artist</th></tr>
 <?php 
 
-$db_host   = '192.168.2.13';
-$db_name   = 'testdb';
-$db_user   = 'admin';
-$db_passwd = 'password123';
+
+/*Must change details for this, need to establish RDS on AWS.*/
+#$db_host   = '192.168.2.13';
+#$db_name   = 'testdb';
+#$db_user   = 'admin';
+#$db_passwd = 'password123';
 
 $pdo_dsn = "mysql:host=$db_host;dbname=$db_name";
 
@@ -32,6 +34,9 @@ while($row = $q->fetch()){
 
 
 </table>
+
+<h1> Below is the current playlist available on Spotify.</h1>
+<iframe src="https://open.spotify.com/embed/playlist/1ES17dZFaxLUtBpEJo3zlY" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </body>
 </main>
 </html>

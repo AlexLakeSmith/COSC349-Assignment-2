@@ -9,10 +9,11 @@
 <body>
 
 <?php
-$db_host   = '192.168.2.13';
-$db_name   = 'testdb';
-$db_user   = 'admin';
-$db_passwd = 'password123';
+/*Must change details for this, need to establish RDS on AWS.*/
+#$db_host   = '192.168.2.13';
+#$db_name   = 'testdb';
+#$db_user   = 'admin';
+#$db_passwd = 'password123';
 
 $conn = mysqli_connect($db_host, $db_user, $db_passwd, $db_name);
 
