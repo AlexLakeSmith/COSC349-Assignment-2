@@ -10,15 +10,15 @@
 
 <?php
 /*Must change details for this, need to establish RDS on AWS.*/
-#$db_host   = '192.168.2.13';
-#$db_name   = 'testdb';
-#$db_user   = 'admin';
-#$db_passwd = 'password123';
+$db_host   = 'testdb.c5ztqfyuxwe0.us-east-1.rds.amazonaws.com';
+$db_name   = 'testdb';
+$db_user   = 'admin';
+$db_passwd = 'password123';
 
 $conn = mysqli_connect($db_host, $db_user, $db_passwd, $db_name);
 
 if(!$conn){
-  die("Connection Error: " . mysql_error());
+  die("Connection Error: " . mysqli_connect_error());
 }
 
 $song = $_POST['song'];
@@ -35,7 +35,7 @@ if (mysqli_query($conn, $sql)){
 mysqli_close($conn);
 
 ?>
-<h2><a href="http://127.0.0.1:8080/">Click here to see the current playlist catalogue</a></h2>
+<h2><a href="http://ec2-18-205-238-199.compute-1.amazonaws.com/">Click here to see the current playlist catalogue</a></h2>
 </body>
 </main>
 </html>
