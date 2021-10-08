@@ -8,8 +8,10 @@ To access the front facing website which displays the database information click
 To access the back facing website which allows you to insert into the database click this link: http://ec2-54-159-244-247.compute-1.amazonaws.com/
 Please note that these links will only be valid until November at the latest. 
  
-If you wish to build an application like this you will need to install the latest vesion of vagrant on your own machine and also create your own AWS account. If you are unfamiliar with creating EC2 instances I would refer you to use this document which steps you through the process on how to create them for yourself: 
+If you wish to build an application like this you will need to install the latest vesion of vagrant on your own machine and also create your own AWS account. If you are unfamiliar with creating EC2 instances I would refer you to use this document which steps you through the process on how to create them for yourself: https://hackmd.io/lDOusFXhRBG0_8t9VZdVGQ
 
 You will also have to create an Amazon RDS database which tutorials can be found online. 
 
 If you have completed these steps and are ready to build the machine you simply must navigate to a chosen directory and enter the command: vagrant up --provider=aws
+
+Further instructions/analysis provided on the report
