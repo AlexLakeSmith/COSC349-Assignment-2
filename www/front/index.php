@@ -10,7 +10,6 @@
 <h1>Welcome to the Alex's Birthday Playlist Catalogue</h1>
 
 <p>Below are the current songs included in the playlist:</p>
-<p>To add a song to the playlist, click <a href="http://ec2-54-145-223-235.compute-1.amazonaws.com/">here</a>.</p>
 
 <table border="1">
 <tr><th>Song</th><th>Artist</th></tr>
