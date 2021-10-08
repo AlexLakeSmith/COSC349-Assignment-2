@@ -13,6 +13,10 @@ If you wish to build an application like this you will need to install the lates
 
 You will also have to create an Amazon RDS database which tutorials can be found online. 
 
+
+I also made use of Amazon's Simple Notiication Service and their S3 service to try and get images to upload through an HTML form to a bucket (although I couldn't get this optimised. I still decided to keep it in for future reference and alteractations.)
+
+
 If you have completed these steps and are ready to build the machine you simply must navigate to a chosen directory and enter the command: vagrant up --provider=aws
 
 Further instructions/analysis provided on the report
