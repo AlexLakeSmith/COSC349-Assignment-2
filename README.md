@@ -2,6 +2,7 @@
 For this assignment the task was to deploy an application to the cloud. To do this I have used:
 - 2 Amazon EC2 Instances to run VM's which act as websites.
 - 1 Amazon RDS to create and store a database which holds information displayed on the website. 
+- 1 Amazon S3 service which is used to store image files uploaded through a web interface form.
 
 To access the front facing website which displays the database information click this link: http://ec2-54-164-43-5.compute-1.amazonaws.com/
 To access the back facing website which allows you to insert into the database click this link: http://ec2-54-159-244-247.compute-1.amazonaws.com/
