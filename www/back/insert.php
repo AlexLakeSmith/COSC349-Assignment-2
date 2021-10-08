@@ -35,7 +35,7 @@ if (mysqli_query($conn, $sql)){
 mysqli_close($conn);
 
 ?>
-<h2><a href="http://ec2-18-205-238-199.compute-1.amazonaws.com/">Click here to see the current playlist catalogue</a></h2>
+<h2><a href="http://ec2-54-164-43-5.compute-1.amazonaws.com/">Click here to see the current playlist catalogue</a></h2>
 </body>
 </main>
 </html>

@@ -10,7 +10,7 @@
 <h1>Welcome to the Alex's Birthday Playlist Catalogue</h1>
 
 <p>Below are the current songs included in the playlist:</p>
-<p>To add a song to the playlist, click <a href="http://ec2-54-159-244-247.compute-1.amazonaws.com/">here</a>.</p>
+<p>To add a song to the playlist, click <a href="http://ec2-54-145-223-235.compute-1.amazonaws.com/">here</a>.</p>
 
 <table border="1">
 <tr><th>Song</th><th>Artist</th></tr>
@@ -34,12 +34,8 @@ $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)){
   echo "<tr><td>".$row["songname"]."</td><td>".$row["artist"]."</td></tr>\n";
 }
-
 mysqli_close($conn);
-
 ?>
-
-
 </table>
 
 <h1> Below is the current playlist available on Spotify.</h1>
